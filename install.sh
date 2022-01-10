@@ -2,8 +2,7 @@
 
 install_links() {
     dir=~/dotfiles             # dotfiles directory
-    #files="zshrc gitconfig"    # list of files/folders to symlink in homedir
-    files = "gitconfig"
+    files="zshrc gitconfig"    # list of files/folders to symlink in homedir
 
     for file in $files; do
       echo "Creating symlink to .$file"
@@ -12,4 +11,3 @@ install_links() {
 }
 
 install_links
-source ~/dotfiles/.zshrc
