@@ -12,4 +12,4 @@ install_links() {
 }
 
 install_links
-source ~/dotfiles/.zhsrc
+source ~/dotfiles/.zshrc
