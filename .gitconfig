@@ -1,0 +1,8 @@
+[user]
+	name = Greg MacWilliam
+	email = greg.macwilliam@shopify.com
+[url "https://github.com/Shopify/"]
+	insteadOf = git@github.com:Shopify/
+	insteadOf = git@github.com:shopify/
+	insteadOf = ssh://git@github.com/Shopify/
+	insteadOf = ssh://git@github.com/shopify/
