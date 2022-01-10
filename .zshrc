@@ -1,3 +1,5 @@
+source /etc/zsh/zshrc.default.inc.zsh
+
 alias rake="bundle exec rake"
 alias be="bundle exec"
 alias db_migrate="bin/rails db:migrate RAILS_ENV=development"
