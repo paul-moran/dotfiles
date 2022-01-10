@@ -1,5 +1,3 @@
-source /etc/zsh/zshrc.default.inc.zsh
-
 alias rake="bundle exec rake"
 alias be="bundle exec"
 alias db_migrate="bin/rails db:migrate RAILS_ENV=development"
@@ -24,3 +22,6 @@ port_process() {
 kill_process() {
   port_process $1 | awk '{print $2}' | xargs kill -9
 }
+
+# Spin default setup
+source /etc/zsh/zshrc.default.inc.zsh
