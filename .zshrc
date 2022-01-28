@@ -35,6 +35,7 @@ alias copme='rubocop_check'
 alias typeme='sorbet_check'
 alias packme='packwerk_check'
 alias graphme='graphql_dump'
+alias devme= 'source /opt/minidev/dev.sh'
 
 port_process() {
   lsof -n -i4TCP:$1 | grep LISTEN
