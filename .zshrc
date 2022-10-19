@@ -37,6 +37,10 @@ alias packme='packwerk_check'
 alias graphme='graphql_dump'
 alias devme= 'source /opt/minidev/dev.sh'
 
+alias sfrstop='systemctl stop proc-shopify--storefront-renderer@server.service'
+alias sfrstart='systemctl start proc-shopify--storefront-renderer@server.service'
+alias sfrdebug='PRY=1 bundle exec rake server_isospin'
+
 port_process() {
   lsof -n -i4TCP:$1 | grep LISTEN
 }
